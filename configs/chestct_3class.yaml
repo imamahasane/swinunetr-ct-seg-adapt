@@ -1,0 +1,72 @@
+# Experiment
+experiment:
+  name: swinunetr_chestct_3class
+  seed: 42
+  deterministic: true
+
+# Paths (Vast.ai)
+paths:
+  project_root: /workspace
+  data_root: /workspace/data/chestct
+  runs_dir: /workspace/runs
+  results_dir: /workspace/results
+
+# Dataset
+data:
+  images_tr: imagesTr
+  labels_tr: labelsTr
+  images_val: imagesVal
+  labels_val: labelsVal
+  file_ext: ".nii.gz"
+
+# Task / Labels
+task:
+  num_classes: 4 # background + 3 foreground classes
+  class_names:
+    - background
+    - lung
+    - heart
+    - trachea
+
+# Preprocessing (CT-specific)
+preprocess:
+  hu_clip: [-1000, 1000]
+  normalize: zscore
+  target_spacing: [1.5, 1.5, 2.0]
+  roi_size: [96, 96, 96]
+  random_flip: true
+  random_rotate: true
+
+# Model
+model:
+  name: swinunetr
+  in_channels: 1
+  out_channels: 4
+  img_size: [96, 96, 96]
+  feature_size: 48
+  use_checkpoint: true
+
+# Training
+train:
+  epochs: 50
+  batch_size: 1
+  lr: 1.0e-4
+  weight_decay: 1.0e-5
+  optimizer: adamw
+  loss: dice_ce
+  num_workers: 4
+  amp: true
+  val_interval: 1
+  save_best_only: true
+
+# Inference
+inference:
+  sliding_window: true
+  sw_batch_size: 2
+  overlap: 0.5
+
+# Logging
+logging:
+  save_curves: true
+  save_predictions: true
+  verbose: true
