@@ -1,0 +1,255 @@
+epoch: 1 time: 2026-01-03 09:24:35
+mean dice: 0.0644
+class1: 0.0800 class2: 0.0489 class3: 0.0000 class4: 0.0000 class5: 0.0000
+best mean dice: 0.0644 at epoch: 1
+
+epoch: 1 time: 2026-01-03 09:28:08
+mean dice: 0.0782
+class1: 0.0986 class2: 0.0578 class3: 0.0000 class4: 0.0000 class5: 0.0000
+best mean dice: 0.0782 at epoch: 1
+
+epoch: 2 time: 2026-01-03 09:29:35
+mean dice: 0.1371
+class1: 0.2165 class2: 0.0577 class3: 0.0000 class4: 0.0000 class5: 0.0000
+best mean dice: 0.1371 at epoch: 2
+
+epoch: 3 time: 2026-01-03 09:31:04
+mean dice: 0.1663
+class1: 0.2844 class2: 0.0483 class3: 0.0000 class4: 0.0000 class5: 0.0000
+best mean dice: 0.1663 at epoch: 3
+
+epoch: 4 time: 2026-01-03 09:32:32
+mean dice: 0.2829
+class1: 0.5257 class2: 0.0402 class3: 0.0000 class4: 0.0000 class5: 0.0000
+best mean dice: 0.2829 at epoch: 4
+
+epoch: 5 time: 2026-01-03 09:34:01
+mean dice: 0.2782
+class1: 0.5210 class2: 0.0354 class3: 0.0000 class4: 0.0000 class5: 0.0000
+best mean dice: 0.2829 at epoch: 4
+
+epoch: 6 time: 2026-01-03 09:35:30
+mean dice: 0.2910
+class1: 0.5418 class2: 0.0403 class3: 0.0000 class4: 0.0000 class5: 0.0000
+best mean dice: 0.2910 at epoch: 6
+
+epoch: 7 time: 2026-01-03 09:36:58
+mean dice: 0.3424
+class1: 0.6434 class2: 0.0414 class3: 0.0000 class4: 0.0000 class5: 0.0000
+best mean dice: 0.3424 at epoch: 7
+
+epoch: 8 time: 2026-01-03 09:38:27
+mean dice: 0.3898
+class1: 0.7284 class2: 0.0511 class3: 0.0000 class4: 0.0000 class5: 0.0000
+best mean dice: 0.3898 at epoch: 8
+
+epoch: 9 time: 2026-01-03 09:40:00
+mean dice: 0.4086
+class1: 0.7267 class2: 0.0906 class3: 0.0000 class4: 0.0000 class5: 0.0000
+best mean dice: 0.4086 at epoch: 9
+
+epoch: 10 time: 2026-01-03 09:41:34
+mean dice: 0.4362
+class1: 0.7327 class2: 0.1397 class3: 0.0000 class4: 0.0000 class5: 0.0000
+best mean dice: 0.4362 at epoch: 10
+
+epoch: 11 time: 2026-01-03 09:43:07
+mean dice: 0.5012
+class1: 0.7519 class2: 0.2505 class3: 0.0000 class4: 0.0000 class5: 0.0000
+best mean dice: 0.5012 at epoch: 11
+
+epoch: 12 time: 2026-01-03 09:44:43
+mean dice: 0.5447
+class1: 0.7611 class2: 0.3284 class3: 0.0000 class4: 0.0000 class5: 0.0000
+best mean dice: 0.5447 at epoch: 12
+
+epoch: 13 time: 2026-01-03 09:46:17
+mean dice: 0.6041
+class1: 0.7605 class2: 0.4477 class3: 0.0000 class4: 0.0000 class5: 0.0000
+best mean dice: 0.6041 at epoch: 13
+
+epoch: 14 time: 2026-01-03 09:47:55
+mean dice: 0.6418
+class1: 0.7656 class2: 0.5180 class3: 0.0000 class4: 0.0000 class5: 0.0000
+best mean dice: 0.6418 at epoch: 14
+
+epoch: 15 time: 2026-01-03 09:49:32
+mean dice: 0.6531
+class1: 0.7633 class2: 0.5429 class3: 0.0000 class4: 0.0000 class5: 0.0000
+best mean dice: 0.6531 at epoch: 15
+
+epoch: 16 time: 2026-01-03 09:51:09
+mean dice: 0.6932
+class1: 0.7650 class2: 0.6215 class3: 0.0000 class4: 0.0000 class5: 0.0000
+best mean dice: 0.6932 at epoch: 16
+
+epoch: 17 time: 2026-01-03 09:52:50
+mean dice: 0.7365
+class1: 0.7709 class2: 0.7020 class3: 0.0000 class4: 0.0000 class5: 0.0000
+best mean dice: 0.7365 at epoch: 17
+
+epoch: 18 time: 2026-01-03 09:54:28
+mean dice: 0.7440
+class1: 0.7979 class2: 0.6902 class3: 0.0000 class4: 0.0000 class5: 0.0000
+best mean dice: 0.7440 at epoch: 18
+
+epoch: 19 time: 2026-01-03 09:56:05
+mean dice: 0.7830
+class1: 0.8064 class2: 0.7597 class3: 0.0000 class4: 0.0000 class5: 0.0000
+best mean dice: 0.7830 at epoch: 19
+
+epoch: 20 time: 2026-01-03 09:57:45
+mean dice: 0.7859
+class1: 0.8271 class2: 0.7448 class3: 0.0000 class4: 0.0000 class5: 0.0000
+best mean dice: 0.7859 at epoch: 20
+
+epoch: 21 time: 2026-01-03 09:59:24
+mean dice: 0.8012
+class1: 0.8274 class2: 0.7749 class3: 0.0000 class4: 0.0000 class5: 0.0000
+best mean dice: 0.8012 at epoch: 21
+
+epoch: 22 time: 2026-01-03 10:01:04
+mean dice: 0.8043
+class1: 0.8286 class2: 0.7800 class3: 0.0000 class4: 0.0000 class5: 0.0000
+best mean dice: 0.8043 at epoch: 22
+
+epoch: 23 time: 2026-01-03 10:02:45
+mean dice: 0.7969
+class1: 0.8393 class2: 0.7545 class3: 0.0000 class4: 0.0000 class5: 0.0000
+best mean dice: 0.8043 at epoch: 22
+
+epoch: 24 time: 2026-01-03 10:04:25
+mean dice: 0.8066
+class1: 0.8387 class2: 0.7744 class3: 0.0000 class4: 0.0000 class5: 0.0000
+best mean dice: 0.8066 at epoch: 24
+
+epoch: 25 time: 2026-01-03 10:06:05
+mean dice: 0.8041
+class1: 0.8387 class2: 0.7695 class3: 0.0000 class4: 0.0000 class5: 0.0000
+best mean dice: 0.8066 at epoch: 24
+
+epoch: 26 time: 2026-01-03 10:07:47
+mean dice: 0.7956
+class1: 0.8359 class2: 0.7552 class3: 0.0000 class4: 0.0000 class5: 0.0000
+best mean dice: 0.8066 at epoch: 24
+
+epoch: 27 time: 2026-01-03 10:09:28
+mean dice: 0.7933
+class1: 0.8435 class2: 0.7430 class3: 0.0000 class4: 0.0000 class5: 0.0000
+best mean dice: 0.8066 at epoch: 24
+
+epoch: 28 time: 2026-01-03 10:11:09
+mean dice: 0.7976
+class1: 0.8475 class2: 0.7477 class3: 0.0000 class4: 0.0000 class5: 0.0000
+best mean dice: 0.8066 at epoch: 24
+
+epoch: 29 time: 2026-01-03 10:12:51
+mean dice: 0.7995
+class1: 0.8446 class2: 0.7544 class3: 0.0000 class4: 0.0000 class5: 0.0000
+best mean dice: 0.8066 at epoch: 24
+
+epoch: 30 time: 2026-01-03 10:14:34
+mean dice: 0.7983
+class1: 0.8442 class2: 0.7523 class3: 0.0000 class4: 0.0000 class5: 0.0000
+best mean dice: 0.8066 at epoch: 24
+
+epoch: 31 time: 2026-01-03 10:16:15
+mean dice: 0.8056
+class1: 0.8417 class2: 0.7695 class3: 0.0000 class4: 0.0000 class5: 0.0000
+best mean dice: 0.8066 at epoch: 24
+
+epoch: 32 time: 2026-01-03 10:17:56
+mean dice: 0.8041
+class1: 0.8446 class2: 0.7635 class3: 0.0000 class4: 0.0000 class5: 0.0000
+best mean dice: 0.8066 at epoch: 24
+
+epoch: 33 time: 2026-01-03 10:19:39
+mean dice: 0.8012
+class1: 0.8423 class2: 0.7601 class3: 0.0000 class4: 0.0000 class5: 0.0000
+best mean dice: 0.8066 at epoch: 24
+
+epoch: 34 time: 2026-01-03 10:21:22
+mean dice: 0.8010
+class1: 0.8430 class2: 0.7591 class3: 0.0000 class4: 0.0000 class5: 0.0000
+best mean dice: 0.8066 at epoch: 24
+
+epoch: 35 time: 2026-01-03 10:23:07
+mean dice: 0.8006
+class1: 0.8456 class2: 0.7556 class3: 0.0000 class4: 0.0000 class5: 0.0000
+best mean dice: 0.8066 at epoch: 24
+
+epoch: 36 time: 2026-01-03 10:24:58
+mean dice: 0.8014
+class1: 0.8443 class2: 0.7585 class3: 0.0000 class4: 0.0000 class5: 0.0000
+best mean dice: 0.8066 at epoch: 24
+
+epoch: 37 time: 2026-01-03 10:26:43
+mean dice: 0.8019
+class1: 0.8448 class2: 0.7590 class3: 0.0000 class4: 0.0000 class5: 0.0000
+best mean dice: 0.8066 at epoch: 24
+
+epoch: 38 time: 2026-01-03 10:28:27
+mean dice: 0.8008
+class1: 0.8444 class2: 0.7571 class3: 0.0000 class4: 0.0000 class5: 0.0000
+best mean dice: 0.8066 at epoch: 24
+
+epoch: 39 time: 2026-01-03 10:30:11
+mean dice: 0.8015
+class1: 0.8444 class2: 0.7587 class3: 0.0000 class4: 0.0000 class5: 0.0000
+best mean dice: 0.8066 at epoch: 24
+
+epoch: 40 time: 2026-01-03 10:31:58
+mean dice: 0.8011
+class1: 0.8438 class2: 0.7584 class3: 0.0000 class4: 0.0000 class5: 0.0000
+best mean dice: 0.8066 at epoch: 24
+
+epoch: 41 time: 2026-01-03 10:33:47
+mean dice: 0.8016
+class1: 0.8434 class2: 0.7599 class3: 0.0000 class4: 0.0000 class5: 0.0000
+best mean dice: 0.8066 at epoch: 24
+
+epoch: 42 time: 2026-01-03 10:35:41
+mean dice: 0.8015
+class1: 0.8437 class2: 0.7592 class3: 0.0000 class4: 0.0000 class5: 0.0000
+best mean dice: 0.8066 at epoch: 24
+
+epoch: 43 time: 2026-01-03 10:37:34
+mean dice: 0.8014
+class1: 0.8435 class2: 0.7594 class3: 0.0000 class4: 0.0000 class5: 0.0000
+best mean dice: 0.8066 at epoch: 24
+
+epoch: 44 time: 2026-01-03 10:39:28
+mean dice: 0.8018
+class1: 0.8432 class2: 0.7605 class3: 0.0000 class4: 0.0000 class5: 0.0000
+best mean dice: 0.8066 at epoch: 24
+
+epoch: 45 time: 2026-01-03 10:41:20
+mean dice: 0.8022
+class1: 0.8432 class2: 0.7613 class3: 0.0000 class4: 0.0000 class5: 0.0000
+best mean dice: 0.8066 at epoch: 24
+
+epoch: 46 time: 2026-01-03 10:43:12
+mean dice: 0.8022
+class1: 0.8430 class2: 0.7614 class3: 0.0000 class4: 0.0000 class5: 0.0000
+best mean dice: 0.8066 at epoch: 24
+
+epoch: 47 time: 2026-01-03 10:45:05
+mean dice: 0.8021
+class1: 0.8432 class2: 0.7610 class3: 0.0000 class4: 0.0000 class5: 0.0000
+best mean dice: 0.8066 at epoch: 24
+
+epoch: 48 time: 2026-01-03 10:46:53
+mean dice: 0.8022
+class1: 0.8431 class2: 0.7613 class3: 0.0000 class4: 0.0000 class5: 0.0000
+best mean dice: 0.8066 at epoch: 24
+
+epoch: 49 time: 2026-01-03 10:48:45
+mean dice: 0.8023
+class1: 0.8431 class2: 0.7614 class3: 0.0000 class4: 0.0000 class5: 0.0000
+best mean dice: 0.8066 at epoch: 24
+
+epoch: 50 time: 2026-01-03 10:50:41
+mean dice: 0.8022
+class1: 0.8431 class2: 0.7613 class3: 0.0000 class4: 0.0000 class5: 0.0000
+best mean dice: 0.8066 at epoch: 24
+
