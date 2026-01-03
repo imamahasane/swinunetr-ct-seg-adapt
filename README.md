@@ -43,7 +43,8 @@ The current configuration uses **three foreground classes**, in addition to back
 | 3  | Trachea     |
 
 > **Note:** Some segmentation frameworks include background as an explicit class, while others treat it implicitly.  
-> In this repository, the value of `num_classes` is configured to match the model output channels defined in the training configuration.
+
+For detailed dataset structure, label conventions, and preprocessing assumptions, please refer to `docs/dataset_format.md`.
 
 ---
 
