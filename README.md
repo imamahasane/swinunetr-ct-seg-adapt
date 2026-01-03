@@ -29,7 +29,7 @@ Experiments are conducted using the public dataset:
 **Chest CT Segmentation (lung, heart, trachea)**  
 https://www.kaggle.com/datasets/polomarco/chest-ct-segmentation
 
-This dataset provides volumetric CT scans with voxel-wise annotations for three anatomical structures.
+This dataset provides volumetric CT scans with voxel-wise annotations for three anatomical structures and serves as a suitable proxy for validating the CT segmentation pipeline under realistic imaging conditions.
 
 ### Label Definition
 
@@ -51,6 +51,8 @@ The current configuration uses **three foreground classes**, in addition to back
 
 The original codebase provided for evaluation was primarily implemented as a sequence of Jupyter notebooks and designed for a **5-class CT segmentation task**.
 
+As the original 5-class dataset is not publicly accessible, this work focuses on validating the **correctness, flexibility, and reproducibility** of the segmentation pipeline using a public CT dataset with a different label space.
+
 This adaptation focuses on:
 - Generalizing the pipeline to support **arbitrary numbers of segmentation classes** via configuration,
 - Ensuring data loading and preprocessing steps remain robust when applied to a different CT dataset,
@@ -60,6 +62,8 @@ The same pipeline can be reconfigured back to a **5-class segmentation setting**
 - `num_classes`
 - `class_names`
 - label mappings (if required)
+
+No structural changes to the pipeline are required for this transition.
 
 ---
 
@@ -87,8 +91,8 @@ swinunetr-ct-seg-adaptation/
 │   ├── models/
 │   ├── losses/
 │   └── utils/
-├── notebooks/                # original and exploratory notebooks
-├── runs/                     # experiment logs and checkpoints
+├── notebooks/               
+├── runs/                    
 ├── results/
 │   ├── metrics.json
 │   ├── curves.png
@@ -100,3 +104,9 @@ swinunetr-ct-seg-adaptation/
 
 ```
 
+## Remarks and Future Work
+
+- This repository validates the segmentation pipeline on a **public 3-class CT dataset** due to the unavailability of the original 5-class dataset used in the evaluation task.
+- The pipeline is designed to be **directly transferable** to the original 5-class setting by updating the configuration (`num_classes`, `class names`, and `label mappings`) without structural code changes.
+- Future work includes evaluating the pipeline on the original dataset (if access is provided) to report results fully aligned with the original task.
+- Additional extensions may include ablation studies on preprocessing strategies (HU windowing, resolution), loss function design, and cross-dataset generalization analysis.
